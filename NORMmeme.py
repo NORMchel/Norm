@@ -7,4 +7,4 @@ class HacksssMod(loader.Module):
         await asyncio.sleep(3)
         await message.edit("Вы взломали котика...")
         await asyncio.sleep(6)
-        await message.edit("Вы взломали котика... зачем...")
+        await message.edit("Вы взломали котика... зачем..")
