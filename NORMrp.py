@@ -18,7 +18,7 @@ class RPMod(loader.Module):
         'success': '🦊 <b>Готово</b>',
         '+рп': '🦊 <b>Рп активны</b>',
         '-рп': '🦊 <b>Рп не активны</b>',
-        'рплист': '🦊 <b>Список ваших рп команд</b>\n\n{}',
+        'листрп': '🦊 <b>Список ваших рп команд</b>\n\n{}',
         'backup_caption': '🦊 <b>My RP commands. Restore with </b><code>.rprestore</code>',
         'no_file': '🦊 <b>Reply to file</b>',
         'restored': '🦊 <b>RP Commands restored. See them with </b><code>.рплист</code>'
