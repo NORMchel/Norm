@@ -6,5 +6,6 @@
 from .. import loader, utils
 from telethon.tl.types import *
 
+class HackCat(loade.Module):
 if m.text == "sudo hack cat":
     await m.respond("ВЫ взломали котика..... зачем?")
