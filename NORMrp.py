@@ -1,18 +1,4 @@
 version = (1, 0, 0)
-"""
-    █ █ ▀ █▄▀ ▄▀█ █▀█ ▀    ▄▀█ ▀█▀ ▄▀█ █▀▄▀█ ▄▀█
-    █▀█ █ █ █ █▀█ █▀▄ █ ▄  █▀█  █  █▀█ █ ▀ █ █▀█
-
-    Copyright 2022 t.me/hikariatama
-    Licensed under the Creative Commons CC BY-NC-ND 4.0
-
-    Full license text can be found at:
-    https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-
-    Human-friendly one:
-    https://creativecommons.org/licenses/by-nc-nd/4.0
-"""
-
 # <3 title: NORMrp
 # <3 pic: https://img.icons8.com/fluency/48/000000/tongue-out.png
 # <3 desc: Just a simple classic role-play module
