@@ -7,6 +7,7 @@ from telethon.tl.types import Message
 
 @loader.tds
 class Rand(loader.Module):
+    strings = {"name": "NORMrand"}
     async def randcmd(self, message):
         args = utils.get_args(message)
         count = int(args[0].strip())
