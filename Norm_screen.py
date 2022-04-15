@@ -24,8 +24,8 @@ class NORM_screenshotMod(loader.Module):
 
  @loader.sudo
 
- async def NORM_screenshotcmd(self, message):
-
+ async def screencmd(self, message):
+  """Пример использования: .screen Google.com"""
   reply = None
 
   link = utils.get_args_raw(message)
@@ -42,7 +42,7 @@ class NORM_screenshotMod(loader.Module):
 
    link = reply.raw_text
 
-  await message.edit("<b>📸Фоткаю...</b>")
+  await message.edit("<b>📸Получаю фотографии...</b>")
 
   url = "https://mini.s-shot.ru/1024x768/JPEG/1024/Z100/?{}"
 
