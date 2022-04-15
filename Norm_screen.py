@@ -7,14 +7,14 @@ from requests import get
 import io
 
 @loader.tds
-
+"""Модуль для получения скриншота с веб страницы"""
 class NORM_screenshotMod(loader.Module):
 
  """Ссылка для скрина"""
 
  strings = {
 
-  "name": "Screen"
+  "name": "Web_creen"
 
  }
 
