@@ -1,0 +1,55 @@
+from telethon import events
+
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+
+from .. import loader, utils
+
+class ValuteMod(loader.Module):
+
+    """Погода ириса ☁️"""
+
+    strings = {"name": "Погода☁️"}
+
+    async def iriswcmd(self, message):
+
+        """<city> """
+
+        
+
+        stae = utils.get_args_raw(message)
+
+        state = ".погода " + stae
+
+        await utils.answer(message, "<b>Данные получены</b>")
+
+        chat = "@iris_cm_bot"
+
+        async with message.client.conversation(chat) as conv:
+
+            try:
+
+                response = conv.wait_event(
+
+                    events.NewMessage(incoming=True, from_users=707693258)
+
+                )
+
+                bot_send_message = await message.client.send_message(
+
+                    chat, format(state)
+
+                )
+
+                bot_response = response = await response
+
+            except YouBlockedUserError:
+
+                await utils.answer(message, f"<b>Убери из ЧС:</b> {chat}")
+
+                return
+
+            await bot_send_message.delete()
+
+            await utils.answer(message, response.text)
+
+            await bot_response.delete()
