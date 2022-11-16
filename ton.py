@@ -1,5 +1,4 @@
 from aiogram import types, Bot, Dispatcher
-from config import *
 import json
 from requests import get
 from asyncio import sleep
